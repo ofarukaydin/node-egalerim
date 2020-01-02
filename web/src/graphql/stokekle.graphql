@@ -1,0 +1,46 @@
+mutation StokEkle(
+  $plaka: String!
+  $marka: String
+  $model: String
+  $yil: String
+  $ruhsatNo: String
+  $alisTarihi: String
+  $motorNo: String
+  $saseNo: String
+  $alisFiyati: String
+  $kdv: String
+  $toplam: String
+  $aciklama: String
+  $tur: String
+) {
+  stokekle(
+    plaka: $plaka
+    marka: $marka
+    model: $model
+    yil: $yil
+    ruhsatNo: $ruhsatNo
+    alisTarihi: $alisTarihi
+    motorNo: $motorNo
+    saseNo: $saseNo
+    alisFiyati: $alisFiyati
+    kdv: $kdv
+    toplam: $toplam
+    aciklama: $aciklama
+    tur: $tur
+  ) {
+    plaka
+    marka
+    model
+    yil
+    ruhsat_no
+    alis_tarihi
+    motor_no
+    sase_no
+    alis_fiyati
+    kdv
+    toplam
+    aciklama
+    tur
+    userId
+  }
+}

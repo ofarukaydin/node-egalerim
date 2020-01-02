@@ -1,0 +1,19 @@
+query GetStoklar {
+  stoklar {
+    id
+    plaka
+    marka
+    model
+    yil
+    ruhsat_no
+    alis_tarihi
+    motor_no
+    sase_no
+    alis_fiyati
+    kdv
+    toplam
+    aciklama
+    tur
+    userId
+  }
+}

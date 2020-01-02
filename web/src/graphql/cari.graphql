@@ -1,0 +1,13 @@
+query Cari($id: Float!) {
+  cari(id: $id) {
+    id
+    isim
+    tc_no
+    vergi_no
+    email
+    tel_no
+    adres
+    posta_kodu
+    userId
+  }
+}

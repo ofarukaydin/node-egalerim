@@ -1,0 +1,31 @@
+.baseView {
+  display: flex;
+  padding-top: 12px;
+}
+.left {
+  min-width: 224px;
+  max-width: 448px;
+}
+.baseView .right {
+  flex: 1;
+  padding-left: 104px;
+}
+.baseView .right .avatar_title {
+  height: 22px;
+  margin-bottom: 8px;
+  line-height: 22px;
+}
+.avatar {
+  width: 144px;
+  height: 144px;
+  margin-bottom: 12px;
+  overflow: hidden;
+}
+.avatar img {
+  width: 100%;
+}
+
+.baseView .button_view {
+  width: 144px;
+  text-align: center;
+}

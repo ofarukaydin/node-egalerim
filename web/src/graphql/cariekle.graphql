@@ -1,0 +1,29 @@
+mutation CariEkle(
+  $tcNo: String!
+  $isim: String!
+  $postaKodu: String
+  $adres: String
+  $telNo: String
+  $email: String
+  $vergiNo: String
+) {
+  cariekle(
+    tcNo: $tcNo
+    isim: $isim
+    postaKodu: $postaKodu
+    adres: $adres
+    telNo: $telNo
+    email: $email
+    vergiNo: $vergiNo
+  ) {
+    tc_no
+    isim
+    id
+    posta_kodu
+    adres
+    tel_no
+    email
+    vergi_no
+    userId
+  }
+}

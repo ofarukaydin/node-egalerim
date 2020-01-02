@@ -1,0 +1,19 @@
+query Stok($id: Float!) {
+  stok(id: $id) {
+    id
+    plaka
+    marka
+    model
+    yil
+    ruhsat_no
+    alis_tarihi
+    motor_no
+    sase_no
+    alis_tarihi
+    kdv
+    toplam
+    aciklama
+    tur
+    userId
+  }
+}
